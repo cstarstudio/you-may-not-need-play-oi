@@ -7,16 +7,22 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Home', link: '/' }
     ],
 
     sidebar: [
       {
         text: 'Menu',
         items: [
-          { text: 'Preface', link: '/preface' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Why? (为什么)', link: '/why' },
+          { text: 'Preface (前言)', link: '/preface' },
+          
+        ]
+      },
+      {
+        text: "Other",
+        items: [
+          { text: 'CSP vs OI (CSP与OI的区别)', link: '/csp/' }
         ]
       }
     ],
