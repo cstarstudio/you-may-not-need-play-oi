@@ -5,6 +5,13 @@ layout: home
 hero:
   name: "You may not need play oi"
   text: "Advice for some programming enthusiasts/students and parents"
+  actions:
+    - theme: brand
+      text: Preface
+      link: ./preface
+    - theme: alt
+      text: Why?
+      link: ./why
   # tagline: My great project tagline
   # actions:
   #   - theme: brand
@@ -14,12 +21,5 @@ hero:
   #     text: API Examples
   #     link: /api-examples
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
