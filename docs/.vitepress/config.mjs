@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "You may not need play oi",
+  base: "/you-may-not-need-play-oi/",
   description: "Advice for some programming enthusiasts/students and parents",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
